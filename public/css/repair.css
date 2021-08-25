@@ -1,0 +1,33 @@
+.content__content {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin-top: 75px;
+  padding: 0 10px;
+  padding-bottom: 60px;
+}
+.content__title {
+  font-size: 64px;
+  color: #cccccc;
+  margin-bottom: 25px;
+}
+.content__img {
+  width: 90%;
+  margin-bottom: 25px;
+}
+.content__img img {
+  width: 100%;
+}
+.content__info {
+  color: #ffffff;
+  font-size: 36px;
+}
