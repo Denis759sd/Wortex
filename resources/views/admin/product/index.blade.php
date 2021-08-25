@@ -31,7 +31,7 @@
                         <table class="table table-striped projects">
                             <thead>
                             <tr>
-                                <th style="width: 1%">
+                                <th style="width: 5%">
                                     Id
                                 </th>
 
@@ -47,7 +47,11 @@
                                     Category
                                 </th>
 
-                                <th style="width: 30%">
+                                <th>
+                                    Date
+                                </th>
+
+                                <th style="width: 40%">
                                 </th>
                             </tr>
                             </thead>
