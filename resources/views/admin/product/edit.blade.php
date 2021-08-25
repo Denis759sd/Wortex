@@ -35,7 +35,12 @@
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="exampleInputName1">Name</label>
-                                            <input type="text" value="{{ $product->name }}" name="title" class="form-control" id="exampleInputName" placeholder="Enter title" required>
+                                            <input type="text" value="{{ $product->name }}" name="name" class="form-control" id="exampleInputName" placeholder="Enter title" required>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputName1">Name</label>
+                                            <input type="text" value="{{ $product->price }}" name="price" class="form-control" id="exampleInputName" placeholder="Enter title" required>
                                         </div>
 
                                         <!-- select -->
