@@ -26,7 +26,7 @@ Route::get('/category/{category}', 'App\Http\Controllers\ProductController@showC
 
 Auth::routes();
 
-Route::get('/home', [\App\Http\Controllers\HomeController::class, 'home'])->name('home')->middleware('auth');
+Route::get('/home', [\App\Http\Controllers\HomeController::class, 'home'])->name('homeAuth')->middleware('auth');
 
 /*
  * Admin panel
