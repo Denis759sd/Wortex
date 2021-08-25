@@ -105,6 +105,28 @@
                             </li>
                         </ul>
                     </li>
+
+                    <li class="nav-item menu">
+                        <a href="#" class="nav-link">
+                            <i class="nav-icon fa fa-phone-square" aria-hidden="true"></i>
+                            <p>
+                                Phones
+                                <i class="right fas fa-angle-left"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="{{ route('phone.index') }}" class="nav-link">
+                                    <p>All phones</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{ route('phone.create') }}" class="nav-link">
+                                    <p>Add new phone</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
             <!-- /.sidebar-menu -->
